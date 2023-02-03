@@ -10,9 +10,12 @@
 #define I2Cdev_h
 
 #include "mbed.h"
-
-#define I2C_SDA PA_10
-#define I2C_SCL PA_9 
+//L432KC
+//  #define I2C_SDA PA_10
+// #define I2C_SCL PA_9  
+//config L452RE
+#define I2C_SDA PB_7
+#define I2C_SCL PB_6
 
 class I2Cdev {
     private:
